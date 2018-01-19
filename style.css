@@ -1,0 +1,54 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes.*/
+* {
+   margin: 8px;
+   /*border: 1px solid red;*/
+   background-color: #81c6e60d;
+ }
+.header {
+  background: URL(https://png.pngtree.com/thumb_back/fw800/back_pic/00/02/06/21560fdd25a6c68.jpg) no-repeat center;
+  background-size: cover;
+  height: 200px;
+}
+
+.header > .header-txt p{
+  position: absolute;
+  font-size: 45px;
+  color: #0be6ef;
+}
+
+.icons {
+  text-align:  center;
+}
+.icons > .Self-Driving-Icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 425px;
+  margin: 12px;
+
+
+}
+
+.icons > .AI-Icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 425px;
+  margin: 12px;
+}
+
+.Benefits {
+margin: 40px;
+}
+.Benefits > .car-fleet {
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+
+}
+
+.Artificial_Intelligence {
+  margin: 40;
+}
