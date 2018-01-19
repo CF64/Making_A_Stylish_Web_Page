@@ -19,24 +19,35 @@ You can apply CSS elements to entire HTML classes.*/
   font-size: 45px;
   color: #0be6ef;
 }
+.about-page {
+margin: 20px;
 
+}
+/*.icons > .icon1 {
+  text-align:  left;
+}*/
 .icons {
-  text-align:  center;
+  text-align: center;
 }
-.icons > .Self-Driving-Icon {
-  width: 200px;
-  height: 200px;
+.icons > .icon1> .Self-Driving-Icon {
+  width: 150px;
+  height: 150px;
   border-radius: 425px;
   margin: 12px;
 
 
 }
 
-.icons > .AI-Icon {
-  width: 200px;
-  height: 200px;
+/*.icons > .icon2>{
+  text-align: right;
+}*/
+
+.icons > .icon2> .AI-Icon {
+  width: 150px;
+  height: 150px;
   border-radius: 425px;
   margin: 12px;
+  float: ;
 }
 
 .Benefits {
