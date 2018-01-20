@@ -11,7 +11,8 @@ You can apply CSS elements to entire HTML classes.*/
 .header {
   background: URL(https://png.pngtree.com/thumb_back/fw800/back_pic/00/02/06/21560fdd25a6c68.jpg) no-repeat center;
   background-size: cover;
-  height: 200px;
+  height: 100px;
+  padding: 20px;
 }
 
 .header > .header-txt p{
@@ -23,32 +24,17 @@ You can apply CSS elements to entire HTML classes.*/
 margin: 20px;
 
 }
-/*.icons > .icon1 {
-  text-align:  left;
-}*/
-.icons {
+
+.icon1{
   text-align: center;
 }
-.icons > .icon1> .Self-Driving-Icon {
+.icon1> .Self-Driving-Icon {
   width: 150px;
   height: 150px;
   border-radius: 425px;
   margin: 12px;
-
-
 }
 
-/*.icons > .icon2>{
-  text-align: right;
-}*/
-
-.icons > .icon2> .AI-Icon {
-  width: 150px;
-  height: 150px;
-  border-radius: 425px;
-  margin: 12px;
-  float: ;
-}
 
 .Benefits {
 margin: 40px;
@@ -62,4 +48,14 @@ margin: 40px;
 
 .Artificial_Intelligence {
   margin: 40;
+}
+
+.icon2 {
+  text-align: center;
+}
+.icon2> .AI-Icon {
+  width: 150px;
+  height: 150px;
+  border-radius: 425px;
+  margin: 12px;
 }
