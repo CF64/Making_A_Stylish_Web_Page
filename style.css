@@ -39,13 +39,19 @@ margin: 20px;
 }
 */
 .Benefits {
-  margin: 40px;
-}
-.Benefits > .car-fleet {
-  width: 300px;
-  height: 250px;
   margin: 20px;
+}
+
+.Benefits > .Benefits_Section {
+    padding: 8px;
+}
+
+.Benefits > .car-fleet {
+  width: 380px;
+  height: 280px;
+  margin: 15px;
   float: left;
+
 }
 
 .Artificial_Intelligence {
