@@ -34,12 +34,9 @@ margin: 20px;
   border-radius: 425px;
   margin: 12px;
 }
-/*.car-fleet {
-  float: left;
-}
-*/
+
 .Benefits {
-  margin: 20px;
+  margin: 40px;
 }
 
 .Benefits > .Benefits_Section {
@@ -48,7 +45,7 @@ margin: 20px;
 
 .Benefits > .car-fleet {
   width: 380px;
-  height: 280px;
+  height: 270px;
   margin: 15px;
   float: left;
 
