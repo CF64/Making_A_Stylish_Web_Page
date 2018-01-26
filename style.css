@@ -4,8 +4,8 @@ enclosed by different characters than HTML comments. */
 /* CSS allows you to give your page style (colors, shapes, fonts, etc.)
 You can apply CSS elements to entire HTML classes.*/
 * {
-   margin: 8px;
-   /*border: 1px solid red;*/
+   margin: 15px;
+  /* border: 1px solid red;*/
    background-color: #81c6e60d;
  }
 .header {
@@ -28,26 +28,34 @@ margin: 20px;
 .icon1{
   text-align: center;
 }
-.icon1> .Self-Driving-Icon {
-  width: 150px;
-  height: 150px;
+
+.description > p {
+   padding-top: 90px;
+}
+
+
+ .Self-Driving-Icon {
+  width: 250px;
+  height: 250px;
   border-radius: 425px;
-  margin: 12px;
+  float: left;
 }
 
 .Benefits {
-  margin: 40px;
+  margin: 200px 10px 40px 10px;
+
 }
 
 .Benefits > .Benefits_Section {
-    padding: 8px;
+    padding: 4px;
 }
 
 .Benefits > .car-fleet {
-  width: 380px;
-  height: 270px;
-  margin: 15px;
+  width: 360px;
+  height: 280px;
+  margin: 20px;
   float: left;
+  padding: 10px;
 
 }
 
@@ -56,11 +64,13 @@ margin: 20px;
 }
 
 .icon2 {
-  text-align: center;
+text-align: center;
 }
-.icon2> .AI-Icon {
-  width: 150px;
-  height: 150px;
+.AI_description> .AI-Icon {
+  width: 250px;
+  height: 250px;
   border-radius: 425px;
-  margin: 12px;
+  margin: 15px;
+  float: left;
+  padding: 15px
 }
