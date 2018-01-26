@@ -3,10 +3,10 @@ enclosed by different characters than HTML comments. */
 
 /* CSS allows you to give your page style (colors, shapes, fonts, etc.)
 You can apply CSS elements to entire HTML classes.*/
-* {
+ *{
    margin: 15px;
   /* border: 1px solid red;*/
-   background-color: #81c6e60d;
+   background-color: aliceblue;
  }
 .header {
   background: URL(https://png.pngtree.com/thumb_back/fw800/back_pic/00/02/06/21560fdd25a6c68.jpg) no-repeat center;
@@ -18,7 +18,7 @@ You can apply CSS elements to entire HTML classes.*/
 .header > .header-txt p{
   position: absolute;
   font-size: 45px;
-  color: #0be6ef;
+  color: darkviolet;
 }
 .about-page {
 margin: 20px;
@@ -60,7 +60,7 @@ margin: 20px;
 }
 
 .Artificial_Intelligence {
-  margin: 40;
+  margin: 40px;
 }
 
 .icon2 {
