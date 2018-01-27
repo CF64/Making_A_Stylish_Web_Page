@@ -3,22 +3,22 @@ enclosed by different characters than HTML comments. */
 
 /* CSS allows you to give your page style (colors, shapes, fonts, etc.)
 You can apply CSS elements to entire HTML classes.*/
- *{
-   margin: 15px;
-  /* border: 1px solid red;*/
-   background-color: aliceblue;
- }
+*{
+  margin: 15px;
+ /* border: 1px solid red;*/
+  background-color: aliceblue;
+}
 .header {
-  background: URL(https://png.pngtree.com/thumb_back/fw800/back_pic/00/02/06/21560fdd25a6c68.jpg) no-repeat center;
-  background-size: cover;
-  height: 100px;
-  padding: 20px;
+ background: URL(https://png.pngtree.com/thumb_back/fw800/back_pic/00/02/06/21560fdd25a6c68.jpg) no-repeat center;
+ background-size: cover;
+ height: 100px;
+ padding: 20px;
 }
 
 .header > .header-txt p{
-  position: absolute;
-  font-size: 45px;
-  color: darkviolet;
+ position: absolute;
+ font-size: 45px;
+ color: darkviolet;
 }
 .about-page {
 margin: 20px;
@@ -26,51 +26,44 @@ margin: 20px;
 }
 
 .icon1{
-  text-align: center;
+ text-align: center;
 }
 
-.description > p {
-   padding-top: 90px;
+.description {
+  padding-top: 30px;
 }
 
-
- .Self-Driving-Icon {
-  width: 250px;
-  height: 250px;
-  border-radius: 425px;
-  float: left;
+.description > .SDC {
+ padding-top: 90px;
+}
+.Icon2 {
+ width: 250px;
+ height: 250px;
+ border-radius: 425px;
+ float: left;
+ margin: 15px;
+ padding: 15px;
 }
 
 .Benefits {
-  margin: 200px 10px 40px 10px;
+ margin: 200px 10px 40px 10px;
+ padding-top: 10px;
 
 }
 
 .Benefits > .Benefits_Section {
-    padding: 4px;
+   padding: 4px;
 }
 
 .Benefits > .car-fleet {
-  width: 360px;
-  height: 280px;
-  margin: 20px;
-  float: left;
-  padding: 10px;
+ width: 360px;
+ height: 280px;
+ margin: 20px;
+ float: left;
+ padding: 10px;
 
 }
 
 .Artificial_Intelligence {
-  margin: 40px;
-}
-
-.icon2 {
-text-align: center;
-}
-.AI_description> .AI-Icon {
-  width: 250px;
-  height: 250px;
-  border-radius: 425px;
-  margin: 15px;
-  float: left;
-  padding: 15px
+ margin: 40px;
 }
